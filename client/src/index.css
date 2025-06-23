@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: sans-serif;
+}
+
+h1.gothic {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+a {
+  color: #0af;
+}
+
+input, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #222;
+  border: 1px solid #444;
+  color: #eee;
+}

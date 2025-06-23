@@ -5,8 +5,11 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Campaigns from './pages/Campaigns';
 import Game from './pages/Game';
+import axios from 'axios';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+axios.defaults.baseURL = import.meta.env.VITE_API_URL;
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
